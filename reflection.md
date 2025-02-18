@@ -1,7 +1,11 @@
 Use this file to record your reflection on this assignment.
 
-- Which classmates did you consult with while working on this assignment?
-- Which session(s) of TA / office hours did you attend?
+- Which classmates did you consult with while working on this assignment?: Tammy and Maylynn
+- Which session(s) of TA / office hours did you attend? Sunday 1-3, and i talked to ab over weekend
 - What are your initial impressions of Java? 
 - Can you draw any conclusion about programming in general from the similarities or the differences between the two languages? 
 - What worked, what didn't, what advice would you give someone taking this course in the future?
+
+I consulted with Tammy and Maylynn on the assignment. We were all at different places in the process. Tammy helped me understand how to impliment an array into my constructor, since I was alittle confised on how to do that and why it was useful. I was able to help Maylnn get started by telling her the steps I had taken thus far in the project. I went to TA hours from 1-3 on Sunday, I spoke with Ab breifly on Saturday, and I went to TA hours on 2/17 at 2:30. All of which were very helpful. I like java right now, maybe my opinions will change as we get deeper in the semester. I struggled a lot with lists and interating through anything last semester. With java I'm finding it alittle easier, or it could just be time. The two languages are very similar. You can use all the same big ideas to execute your code, but you need to learn the specific syntax. It's sort of like how Spanish and Engilish use the same general sentance structure, but different words. I think talking to people helped and using online resource that have the different methods of objects(?) really helped me. My biggest struggle was the difference between array lists and arrays, this caused alot of confusion in my googling. 
+
+In general, I do not think my submission could run succesfully without me. There are a lot of things that could go wrong. My chatbot still doesn't reflect every word, and it does not handel capitalization/spacing of words very well. However, I think I learned a lot from it and would be able to work on imporving it for a better user experience
