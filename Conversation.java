@@ -47,7 +47,7 @@ class Conversation implements Chatbot {
       
   
     // outputPronounList
-    outputPronounList.add("You");
+    outputPronounList.add("you");
     outputPronounList.add("you");
     outputPronounList.add("are");
     outputPronounList.add("I");
@@ -90,20 +90,28 @@ class Conversation implements Chatbot {
     for (int i =0; i < this.rounds; i++) {
       String user_answer = my_scanner.nextLine();
       transcript.add(user_answer);
-  
-    // if chatbot is on the last round, it will say its last response
-    if (i == this.rounds - 1) {
-      String done_convo = "Okay bye bye!!";
-      System.out.println(done_convo);
-      transcript.add(done_convo);
 
-    } else { //otherwise, the chatbot will continue the conversation by calling on the 'respond' method
-      String keep_going = respond(user_answer);
-      System.out.println(keep_going); 
-      transcript.add(keep_going); }
+    // if chatbot is on the last round, it will say its last response
+      if (i == this.rounds-1) { 
+        String lastResponse = respond(user_answer);
+        transcript.add(lastResponse);
+        System.out.println(lastResponse);
+
+        String done_convo = "Okay bye bye!!";
+        System.out.println(done_convo);
+        transcript.add(done_convo);
+
+      } else { //otherwise, the chatbot will continue the conversation by calling on the 'respond' method
+        String keep_going = respond(user_answer);
+        System.out.println(keep_going); 
+        transcript.add(keep_going); 
       }
-    my_scanner.close();
+  
+
+    
     }
+    my_scanner.close();
+  }
 
   /**
    * Prints transcript of conversation
